@@ -2,17 +2,21 @@
 
 difference() {
     
-    cube([25, 25, 100]);
-    translate([12.5, 12.5, 40])
-    cylinder(h = 140, r = 8, center = true, $fn=100);
+    cube([35, 25, 200]);
+    translate([10, 12.5, 0])
+    cylinder(h = 400, r = 9, center = true, $fn=100);
+
+    translate([-0.5, -1, 183])
+    cube([21, 30, 3]);
     
-    translate([4.5, -1, 40])
-    cube([16, 30, 3]);
+    translate([-0.5, -1, 166])
+    cube([21, 30, 3]);
     
-    translate([4.5, -1, 56])
-    cube([16, 30, 3]);
-    
-    translate([4.5, -1, 72])
-    cube([16, 30, 3]);
+    translate([-0.5, -1, 149])
+    cube([21, 30, 3]);
     
 }
+
+translate([-5, -3.5, 0])
+cube([5.1, 32, 65]);
+
